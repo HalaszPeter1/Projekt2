@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginAblakComponent } from './login-ablak/login-ablak.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginAblakComponent
   ],
   imports: [
     BrowserModule,
