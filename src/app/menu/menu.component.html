@@ -1,0 +1,10 @@
+<nav>
+    <ul>
+        <li *ngFor="let menupont of menupontok">
+            <a [routerLink]="menupont.link">
+                {{menupont.title}}
+            </a>
+        </li>
+       
+    </ul>
+</nav>
